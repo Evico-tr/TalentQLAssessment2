@@ -10,7 +10,7 @@ pipeline {
 
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/****'
+                git 'https://github.com/Evico-tr/TalentQLAssessment2.git'
                 }
         }
         stage('Run tests') {
